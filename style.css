@@ -1,0 +1,239 @@
+        @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+        body {
+            background-color: rgb(236, 255, 220);
+            margin: 0;
+            padding: 0;
+        }
+        
+        .icon {
+            background-color: rgb(170, 255, 0);
+            border-radius: 25rem;
+            padding: 2px;
+        }
+        
+        .container1 {
+            border: 0 none;
+            outline: 0;
+            background-color: #454545;
+            height: 50px;
+            color: #ffffff;
+            font-family: 'Ms Madi', cursive;
+            letter-spacing: 3px;
+            font-weight: 300;
+            font-size: 200%;
+            padding-left: 10px;
+            padding-top: 15px;
+        }
+        
+        .container {
+            width: 30%;
+            height: 25%;
+            background-color: none;
+            position: relative;
+            top: 10px;
+            left: 50px;
+            bottom: 50%;
+        }
+        
+        .name1 {
+            position: absolute;
+            left: 480px;
+            bottom: 420px;
+            font-family: 'Akshar';
+            font-size: 100%;
+            color: rgb(170, 255, 0);
+            letter-spacing: 2px;
+            background-color: none;
+            padding: auto;
+            border: 1px solid;
+            border-color: gray;
+            border-radius: 1.3em;
+            padding: 5px;
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+        }
+        
+        .name1:hover {
+            transform: translateY(-7px);
+            box-shadow: 0px 8px 15px rgba(170, 255, 0, 0.473);
+        }
+        
+        .sobre {
+            position: absolute;
+            left: 480px;
+            bottom: 270px;
+            font-family: 'Akshar';
+            color: #000000;
+            font-size: 130%;
+            letter-spacing: 3px;
+        }
+        
+        .icon3 {
+            position: absolute;
+            font-size: 25px;
+            color: #000000;
+            left: 1290px;
+            bottom: 610px;
+            width: 50px;
+            height: 50px;
+        }
+        
+        .icon4 {
+            position: absolute;
+            font-size: 25px;
+            color: #000000;
+            left: 1240px;
+            bottom: 615px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .contact {
+            position: absolute;
+            font-family: 'Akshar';
+            font-size: 30px;
+            color: #ffffff;
+            letter-spacing: 1px;
+            left: 1110px;
+            bottom: 613px;
+            border-color: rgb(255, 255, 255);
+            border-radius: 1.3em;
+            background-color: rgb(170, 255, 0);
+            padding: 3px;
+        }
+        
+        .soft {
+            font-family: 'Akshar';
+            font-size: 200%;
+            color: rgb(170, 255, 0);
+            letter-spacing: 2px;
+            border: 1px solid;
+            border-color: gray;
+            border-radius: 1.3em;
+            padding: 8px 8px;
+            position: absolute;
+            left: 350px;
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+        }
+        
+        .soft:hover {
+            transform: translateY(-7px);
+            box-shadow: 0px 8px 15px rgba(170, 255, 0, 0.582);
+        }
+        
+        .dev {
+            width: 45%;
+            height: 22%;
+            position: relative;
+            left: 700px;
+            top: 65px;
+        }
+        
+        .html {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            bottom: 10px;
+            left: 255px;
+            top: 622px;
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+        }
+        
+        .html:hover {
+            background-color: none;
+            color: #fff;
+            transform: translateY(-7px);
+        }
+        
+        .css {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            bottom: 10px;
+            left: 550px;
+            top: 625px;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.3s ease 0s;
+        }
+        
+        .css:hover {
+            background-color: none;
+            color: #fff;
+            transform: translateY(-7px);
+        }
+        
+        .java {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            bottom: 10px;
+            left: 400px;
+            top: 625px;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.3s ease 0s;
+        }
+        
+        .java:hover {
+            background-color: none;
+            color: #fff;
+            transform: translateY(-7px);
+        }
+        
+        .react {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            left: 255px;
+            top: 752px;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.3s ease 0s;
+        }
+        
+        .react:hover {
+            background-color: none;
+            color: #fff;
+            transform: translateY(-7px);
+        }
+        
+        .nodejs {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            left: 400px;
+            top: 750px;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.3s ease 0s;
+        }
+        
+        .nodejs:hover {
+            background-color: none;
+            color: #fff;
+            transform: translateY(-7px);
+        }
+        
+        .php {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            left: 550px;
+            top: 750px;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.3s ease 0s;
+        }
+        
+        .php:hover {
+            background-color: none;
+            color: #fff;
+            transform: translateY(-7px);
+        }
